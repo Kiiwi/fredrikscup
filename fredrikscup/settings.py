@@ -92,10 +92,10 @@ USE_TZ = True
 
 
 # Parse database configuration from $DATABASE_URL
-#DATABASES['default'] = dj_database_url.config()
+DATABASES['default'] = dj_database_url.config()
 
 # Enable Connection Pooling (if desired)
-#DATABASES['default']['ENGINE'] = 'django_postgrespool'
+DATABASES['default']['ENGINE'] = 'django_postgrespool'
 
 # Honor the 'X-Forwarded-Proto' header for request.is_secure()
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
@@ -117,3 +117,10 @@ STATICFILES_DIRS = (
 # Simplified static file serving.
 # https://warehouse.python.org/project/whitenoise/
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'tommy.lee.ryan@gmail.com'
+EMAIL_HOST_PASSWORD = 'oetdiejqifkklpmz'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+DEFAULT_FROM_EMAIL = 'tommy.lee.ryan@gmail.com'
