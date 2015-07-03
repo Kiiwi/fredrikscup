@@ -15,7 +15,7 @@ def home(request):
         email = form.cleaned_data["email"]
         other = form.cleaned_data["other"]
         email_recipient = ["tommy.lee.ryan@gmail.com"]
-        email_subject = "[Påmelding] %s" % team_name
+        email_subject = "[Frederikscup] %s" % team_name
         email_body = "Lagnavn: %s" \
                      "\nFra: %s" \
                      "\nKlasse: %s" \
