@@ -2,8 +2,7 @@ from django.shortcuts import render, render_to_response, RequestContext
 from .forms import RegistrationForm
 from django.http import HttpResponseRedirect
 from django.core.mail import send_mail
-
-
+# -*- coding: utf-8 -*-
 def home(request):
     form = RegistrationForm(request.POST or None)
     if form.is_valid():
