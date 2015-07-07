@@ -34,3 +34,16 @@ class Team(models.Model):
 
     def __unicode__(self):
         return self.tournament_class + ' ' + self.team_name
+
+
+class TournamentStatus(models.Model):
+    signup = models.BooleanField(default=True)
+    pre_start = models.BooleanField()
+    started = models.BooleanField()
+
+    class Meta:
+        verbose_name = "Tournament Status"
+        verbose_name_plural = "Tournament Status"
+
+    def __unicode__(self):
+        return "Status"
