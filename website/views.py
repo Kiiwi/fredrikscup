@@ -53,3 +53,10 @@ def results(request):
     return render_to_response("resultater.html", locals(),
                               context_instance=RequestContext(request))
 
+
+def custom_404(request):
+    return render(request, "404.html", {}, status=404)
+
+
+def custom_500(request):
+    return render(request, "500.html", {}, status=500)
