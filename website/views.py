@@ -3,6 +3,7 @@ from .forms import RegistrationForm
 from .models import Team, TournamentStatus
 from django.http import HttpResponseRedirect
 from django.core.mail import send_mail
+from django.contrib import messages
 # -*- coding: utf-8 -*-
 
 
@@ -16,6 +17,7 @@ def home(request):
         save_it = form.save(commit=False)
         save_it.save()
 
+
         # Get form data
         team_name = form.cleaned_data["team_name"]
         team_from = form.cleaned_data["team_from"]
@@ -23,6 +25,7 @@ def home(request):
         phone = form.cleaned_data["phone"]
         email = form.cleaned_data["email"]
         other = form.cleaned_data["other"]
+        #messages.success(request, "Påmeldingen var velykket!")  # Django message
 
         # Email information
         email_recipient = ["tommy.lee.ryan@gmail.com"]
@@ -36,6 +39,7 @@ def home(request):
                                       phone, email, other)
         send_mail(email_subject, email_body, 'tommy.lee.ryan@gmail.com',
                   email_recipient, fail_silently=False)
+
         return HttpResponseRedirect("takk")
 
     return render_to_response("index.html", locals(),
