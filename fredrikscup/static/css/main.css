@@ -4,8 +4,15 @@
    Author's custom styles
    ========================================================================== */
 
+.bg-primary {
+    background-color: #656D6B;
+    color: #ffffff;
+}
+
+
 .info {
     font-size: 150%;
+    /*background-color: #9FADA9;*/
 }
 
 .current_teams {
@@ -28,8 +35,43 @@
    margin-top: 100%;
 }
 
+.header {
+    color: #EC4126;
+}
 
+.btn-dark {
+    background-color: #47B146;
+}
 
+.btn-dark:hover {
+    background-color: #85BE84;
+}
+
+.btn-dark:active {
+    background-color: #66FD64;
+}
+
+.btn-dark:focus {
+    background-color: #85BE84;
+}
+
+#sidebar-wrapper {
+    background-color: #515957;
+}
+
+.sidebar-nav > .sidebar-brand a {
+  color: #C3D3CE;
+}
+
+.sidebar-nav li a {
+    color: #C3D3CE;
+}
+
+.text-vertical-center span {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
 
 
 

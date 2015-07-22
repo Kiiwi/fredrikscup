@@ -1,10 +1,13 @@
 {% extends "base.html" %}
-
+{% load staticfiles %}
 
 {% block content %}
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
+            <img src="{% static "images/innebandy_fargeutenbakgrunn_web1.png" %}"
+                 style="max-height: 20%; max-width: 20%; height: auto; width: auto">
+
             <h1>Frederikscup</h1>
 
             <h3>Domus Athletica 30. august</h3>
@@ -20,6 +23,9 @@
                     <a href="{% url "results" %}" class="btn btn-dark btn-lg">Se oppsett og resultater!</a>
                 {% endif %}
             {% endfor %}
+            <br>
+            <a href="#info"><i class="fa fa-angle-down fa-5x" style="color: #C3D3CE; margin-top: 2em"></i></a>
+
         </div>
     </header>
 
@@ -113,17 +119,17 @@
 
 
     <!-- Registration -->
-    {% include "registration.html" %}
+    {% include "new_reg.html" %}
 
-<!-- /Form -->
+    <!-- /Form -->
 
 
-<!-- /.col-lg-10 -->
-</div>
-<!-- /.row -->
-</div>
-<!-- /.container -->
-</section>
+    <!-- /.col-lg-10 -->
+    </div>
+    <!-- /.row -->
+    </div>
+    <!-- /.container -->
+    </section>
 
 
     <!-- Map -->
