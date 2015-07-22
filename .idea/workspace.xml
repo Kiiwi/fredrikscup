@@ -23,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57678574" vertical-offset="0" max-vertical-offset="2771">
-              <caret line="19" column="87" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
+            <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="2771">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -73,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/website/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="182" max-vertical-offset="1207">
-              <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+            <state vertical-scroll-proportion="-0.24874792" vertical-offset="523" max-vertical-offset="1122">
+              <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -140,11 +140,11 @@
         <option value="$PROJECT_DIR$/website/templates/navigation.html" />
         <option value="$PROJECT_DIR$/website/templates/signup.html" />
         <option value="$PROJECT_DIR$/website/templates/index.html" />
-        <option value="$PROJECT_DIR$/website/views.py" />
         <option value="$PROJECT_DIR$/website/templates/takk.html" />
         <option value="$PROJECT_DIR$/website/templates/registration.html" />
         <option value="$PROJECT_DIR$/fredrikscup/settings.py" />
         <option value="$PROJECT_DIR$/website/templates/base.html" />
+        <option value="$PROJECT_DIR$/website/views.py" />
       </list>
     </option>
   </component>
@@ -643,10 +643,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1032" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25339368" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25339368" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295964" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1016,14 +1016,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="182" max-vertical-offset="1207">
-          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website/templates/takk.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="425">
@@ -1068,8 +1060,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/website/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57678574" vertical-offset="0" max-vertical-offset="2771">
-          <caret line="19" column="87" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
+        <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="2771">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.24874792" vertical-offset="523" max-vertical-offset="1122">
+          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
           <folding />
         </state>
       </provider>

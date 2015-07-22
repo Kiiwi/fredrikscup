@@ -25,7 +25,7 @@ def home(request):
         phone = form.cleaned_data["phone"]
         email = form.cleaned_data["email"]
         other = form.cleaned_data["other"]
-        #messages.success(request, "Påmeldingen var velykket!")  # Django message
+        #messages.success(request, "success message")  # Django message
 
         # Email information
         email_recipient = ["tommy.lee.ryan@gmail.com"]
