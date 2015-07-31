@@ -1,10 +1,10 @@
+# -*- coding: utf-8 -*-
 from django.shortcuts import render, render_to_response, RequestContext
 from .forms import RegistrationForm
 from .models import Team, TournamentStatus
 from django.http import HttpResponseRedirect
 from django.core.mail import send_mail
 from django.contrib import messages
-# -*- coding: utf-8 -*-
 
 
 def home(request):
